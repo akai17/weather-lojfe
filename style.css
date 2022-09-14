@@ -1,0 +1,115 @@
+html,
+body {
+  font-family: nunito;
+  height: 100%;
+  padding: 0 0 20px;
+  margin: 0;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.app-name {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  color: rgb(190, 81, 172);
+}
+.main-container {
+  min-width: 600px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px 20px 10px;
+}
+
+.current-temperature {
+  text-align: center;
+  color: rgb(190, 81, 172);
+}
+
+.units {
+  vertical-align: top;
+  font-size: 16px;
+}
+
+#c,
+#f {
+  color: rgb(190, 81, 172);
+}
+
+.current-day,
+.current-time {
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.city-name {
+  font-size: 22px;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+}
+.current-weather-icon {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  padding: 0;
+}
+.current-weather-box {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0;
+}
+.card {
+  width: 100px;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+#cardList {
+  background-color: seashell;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0;
+  margin: 10px 0;
+}
+.card-body {
+  padding: 1px;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.card-img {
+  width: 60%;
+}
+.card-text {
+  font-size: 14px;
+}
+section {
+  text-align: center;
+  font-family: monospace;
+  color: cornflowerblue;
+}
+.Linkedin {
+  color: magenta;
+  text-decoration: none;
+}
+.Linkedin:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+.openSource {
+  color: rgb(100, 149, 236);
+}
