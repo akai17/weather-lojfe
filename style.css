@@ -16,8 +16,7 @@ body {
   color: rgb(190, 81, 172);
 }
 .main-container {
-  min-width: 500px;
-  max-width: 640px;
+  width: 640px;
   background: radial-gradient(
     circle at 10% 20%,
     rgba(91, 173, 254, 0.46) 0%,
